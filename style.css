@@ -1,0 +1,27 @@
+
+.square{
+border:1px solid green;
+height:60px;
+width:60px;
+text-align:center;
+font-size: 40px;
+font-weight:bold;
+background-color: green;
+font-family: cursive;}
+
+h1{
+font-family: garamond;
+font-weight:bold;
+font-size:50px;
+}
+#message{
+	font-family: cursive;
+	font-size:20px;
+}
+body{
+width:500px;
+margin:auto;}
+
+#new{
+margin:auto;
+}

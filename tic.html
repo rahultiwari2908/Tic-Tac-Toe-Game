@@ -1,0 +1,41 @@
+<DOCTYPE html>
+<html>
+<head>
+<title>TIC TAC TOE</title>
+<link href="style.css"
+type="text/css"
+rel="stylesheet">
+
+<script src="t.js">
+</script>
+
+</head>
+
+<body onload="startGame()">
+<h1> Tic Tac Toe Board </h1>
+<div id ="message"> Message
+</div>
+
+<table>
+<tr>
+    <td id="s1" class= "square" onclick= "nextMove(this);"></td>
+    <td id="s2" class= "square" onclick= "nextMove(this);"></td>
+    <td id="s3" class= "square" onclick= "nextMove(this);"></td>
+</tr>
+  <tr>
+    <td id="s4" class= "square" onclick= "nextMove(this);"></td>
+    <td id="s5" class= "square" onclick= "nextMove(this);"></td>
+    <td id="s6" class= "square" onclick= "nextMove(this);"></td>
+      </tr>
+  <tr>
+    <td id="s7" class= "square" onclick= "nextMove(this);"></td>
+    <td id="s8" class= "square" onclick= "nextMove(this);"></td>
+    <td id="s9" class= "square" onclick= "nextMove(this);"></td>
+  </tr>
+
+</table>
+<!--<button type="button" onclick="newGame();"> New Game </button> 
+--><a href="javascript:startGame();" id="new" > New Game</a>
+ 
+ </body>
+ </html>
